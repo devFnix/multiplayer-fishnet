@@ -1,0 +1,117 @@
+# ===========================================
+# UNITY + VISUAL STUDIO .gitignore
+# Autor: Santiago / ChatGPT
+# ===========================================
+
+# --- UNITY ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+Recordings/
+Assets/AssetStoreTools*
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/Recordings/
+
+# Cache del Package Manager
+/Packages/com.unity.package-manager-ui/
+PackageCache/
+
+# Visual Scripting
+GeneratedVisualScripting/
+
+# Cache de Shader Graph y compilación
+ShaderCache/
+*.shadercache
+
+# --- ARCHIVOS DE UNITY QUE SE DEBEN MANTENER ---
+!*.meta
+!*.unity
+!*.prefab
+!*.mat
+!*.asset
+!*.anim
+!*.controller
+!*.physicMaterial
+!*.compute
+!*.renderTexture
+
+# --- SISTEMA DE VERSIONADO ---
+.vs/
+.vscode/
+.idea/
+
+# --- VISUAL STUDIO / DOTNET ---
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.mdb
+*.pdb
+*.cache
+*.config
+*.manifest
+*.log
+*.user
+*.userprefs
+*.suo
+*.tmp
+*.csproj.user
+*.pidb
+*.svclog
+*.aps
+*.dbmdl
+*.jfm
+*.tlog
+*.lastcodeanalysissucceeded
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta.json
+
+# --- UNITY BUILDS ---
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.ipa
+*.app
+*.exe
+*.msi
+*.zip
+*.7z
+*.tar
+*.gz
+
+# --- SISTEMAS DE CONTROL DE VERSIONES ---
+# Si usas Git LFS, puedes agregar tus tipos de archivos grandes aquí.
+# Ejemplo:
+# *.psd filter=lfs diff=lfs merge=lfs -text
+
+# --- PLUGINS DE UNITY ---
+*.csproj
+*.unityproj
+*.sln
+*.sln.docstates
+
+# --- OTROS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.orig
+*.bak
+*.swp
+*.tmp
+~$*
